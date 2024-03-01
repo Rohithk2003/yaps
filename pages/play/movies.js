@@ -44,7 +44,6 @@ const Movies = () => {
   const to = tmdb ? `${tmdb}` : `${id}`
 
   const superembed = tmdb ? `=${tmdb}&tmdb=1` : `=${id}`
-  const superembed = tmdb ? `=${tmdb}&tmdb=1` : `=${id}`
 
   const [lightStatus, switchLight] = useState(false)
   const [videoServer, setVideoServer] = useState(defaultServer)
